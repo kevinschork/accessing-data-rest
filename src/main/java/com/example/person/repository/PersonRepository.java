@@ -1,4 +1,4 @@
-package com.example.accessingdatarest.repository;
+package com.example.person.repository;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
-import com.example.accessingdatarest.model.Person;
+import com.example.person.model.Person;
 
 @RepositoryRestResource
 public interface PersonRepository extends CrudRepository<Person, String> {

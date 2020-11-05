@@ -1,4 +1,4 @@
-package com.example.accessingdatarest.model;
+package com.example.person.model;
 
 import java.time.LocalDateTime;
 
